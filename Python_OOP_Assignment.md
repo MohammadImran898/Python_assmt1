@@ -26,41 +26,41 @@ Q12. **Where and how are instance attributes created?**
 -->instance attribute are created based on __init__ function and these should be created inside class name.
 Q13. **What does the term &quot;self&quot; in a Python class mean?**
 -->self refers to instance of class.
-Q14. **How does a Python class handle operator overloading?**
--->it handles by providing extended fun
-Q15. When do you consider allowing operator overloading of your classes?
-
-Q16. What is the most popular form of operator overloading?
-
-Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?
-
-Q18. Describe three applications for exception processing.
-
-Q19. What happens if you don&#39;t do something extra to treat an exception?
-
-Q20. What are your options for recovering from an exception in your script?
-
-Q21. Describe two methods for triggering exceptions in your script.
-
-Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
-whether or not an exception exists.
-
-Q23. What is the purpose of the try statement?
-
-Q24. What are the two most popular try statement variations?
-
-Q25. What is the purpose of the raise statement?
-
-Q26. What does the assert statement do, and what other statement is it like?
-
-Q27. What is the purpose of the with/as argument, and what other statement is it like?
-
-Q28. What are *args, **kwargs?
-
-Q29. How can I pass optional or keyword parameters from one function to another?
-
-Q30. What are Lambda Functions?
-
+**Q14.** **How does a Python class handle operator overloading?**
+-->it handles by providing extended functionality beyond their predefined functionality.
+**Q15. When do you consider allowing operator overloading of your classes?**
+-->when we want o override class of superclass in subclass.
+**Q16. What is the most popular form of operator overloading?**
+--> +
+**Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?**
+-->inheritance and polymorphism
+**Q18. Describe three applications for exception processing.**
+-->syntax errors, logical errors and exceptions.
+**Q19. What happens if you don&#39;t do something extra to treat an exception?**
+-->it stops program execution and throws an error.
+**Q20. What are your options for recovering from an exception in your script?**
+-->catch an error and print it.
+**Q21. Describe two methods for triggering exceptions in your script.**
+-->try and raise
+**Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.**
+-->finally
+**Q23. What is the purpose of the try statement?**
+-->try statement is to test for errors while it is being executed.
+**Q24. What are the two most popular try statement variations?**
+-->try/except/else and try/except/finally
+**Q25. What is the purpose of the raise statement?**
+-->to raise an exception manually, raise statement is used in try block.
+**Q26. What does the assert statement do, and what other statement is it like?**
+-->assert statement checks for a condition and returns true or assertion error. it is like if else.
+**Q27. What is the purpose of the with/as argument, and what other statement is it like?**
+-->with/as simplifies management of file streams. it is like open file and try writing/reading and finally closing. by using with file will be closed automatically.
+**Q28. What are *args, **kwargs?**
+-->
+**Q29. How can I pass optional or keyword parameters from one function to another?**
+-->
+**Q30. What are Lambda Functions?**
+-->
 Q31. Explain Inheritance in Python with an example?
 
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
