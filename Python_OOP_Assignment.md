@@ -1,5 +1,5 @@
 ## Python OOP Assignment
-Q1. **What is the purpose of Python&#39;s OOP?**
+**Q1. **What is the purpose of Python&#39;s OOP?****
 
 Q2.**Where does an inheritance search look for an attribute?**
 --> it first looks in instance object then in classes then in superclasses.
